@@ -9,11 +9,6 @@ compra1 = float(input('Digite o valor da compra 1: '))
 compra2 = float(input('Digite o valor da compra 2: '))
 compra3 = float(input('Digite o valor da compra 3: '))
 
-# Inicializando as variáveis de desconto
-desconto1 = 0
-desconto2 = 0
-desconto3 = 0
-
 # Verificando os descontos para compra1
 if compra1 > 300.00:
     desconto1 = compra1 * 0.20
