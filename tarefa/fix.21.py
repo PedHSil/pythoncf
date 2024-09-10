@@ -22,6 +22,6 @@ multiplicacao = num1_int * num2_int * num3_int
 media_aritmetica = multiplicacao / 3
 
 # Mostrando o resultado na tela
-print(f'A multiplicação dos valores é: {multiplicacao:.0f}')
-print(f'A média aritmética da multiplicação é: {media_aritmetica:.0f}')
+print(f'A multiplicação dos valores é: {multiplicacao}')
+print(f'A média aritmética da multiplicação é: {media_aritmetica}')
 
