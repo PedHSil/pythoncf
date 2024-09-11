@@ -49,3 +49,8 @@ print(f'Quantidade de galões: {galoes_necessarios} - Custo total: R$ {custo_gal
 
 print(f'\nSituação C: Misturar latas e galões para o menor preço.')
 print(f'Quantidade de latas: {latas_mistas} - Quantidade de galões: {galoes_mistos} - Custo total: R$ {custo_misto:.2f}')
+
+print()
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')

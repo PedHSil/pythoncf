@@ -25,3 +25,6 @@ media_aritmetica = multiplicacao / 3
 print(f'A multiplicação dos valores é: {multiplicacao}')
 print(f'A média aritmética da multiplicação é: {media_aritmetica}')
 
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')

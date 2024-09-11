@@ -48,3 +48,8 @@ print(f'Valor total da compra 2 com desconto: R$ {compra2_descontado:.2f}')
 print(f'Valor total da compra 3 com desconto: R$ {compra3_descontado:.2f}')
 print(f'\nValor total das compras: R$ {valor_total:.2f}')
 print(f'Valor total das compras com desconto: R$ {valor_total_descontado:.2f}')
+
+print()
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')

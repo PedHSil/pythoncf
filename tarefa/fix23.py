@@ -17,3 +17,8 @@ print(f'a soma de {num1_int} + {num2_int} é {soma}')
 print(f'a subtração de {num1_int} - {num2_int} é {sub}')
 print(f'a multiplicação de {num1_int} * {num2_int} é {mult}')
 print(f'a divisão de {num1_int} / {num2_int} é {div}')
+
+print()
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')

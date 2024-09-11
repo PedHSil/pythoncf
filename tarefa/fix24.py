@@ -22,3 +22,8 @@ elif sexo.upper() == 'F':
     print(f'Seu peso ideal é: {peso_ideal:.2f} kg')
 else:
     print('Sexo inválido. Por favor, digite M para masculino ou F para feminino.')
+    
+print()
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')

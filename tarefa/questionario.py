@@ -72,3 +72,8 @@ d) F, V, F, V, V
 e) F, V, V, F, F
 '''
 # F, F, V, F, F
+
+print()
+print(f'Pedro Henrique da Silva – G76CHI3')
+print()
+print(f'Denner Moreira de Souza - G71EIE3')
