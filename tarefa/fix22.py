@@ -16,6 +16,8 @@ elif compra1 > 200.00:
     desconto1 = compra1 * 0.15
 elif compra1 > 100.00:
     desconto1 = compra1 * 0.10
+elif compra1 < 100.00:   
+    desconto1 = compra1 * 0.
 
 # Verificando os descontos para compra2
 if compra2 > 300.00:
@@ -24,6 +26,8 @@ elif compra2 > 200.00:
     desconto2 = compra2 * 0.15
 elif compra2 > 100.00:
     desconto2 = compra2 * 0.10
+elif compra2 < 100.00:   
+    desconto2 = compra2 * 0.
 
 # Verificando os descontos para compra3
 if compra3 > 300.00:
@@ -32,6 +36,8 @@ elif compra3 > 200.00:
     desconto3 = compra3 * 0.15
 elif compra3 > 100.00:
     desconto3 = compra3 * 0.10
+elif compra3 < 100.00:  
+    desconto3 = compra3 * 0.
 
 # Calculando os valores com desconto
 compra1_descontado = compra1 - desconto1
