@@ -2,7 +2,6 @@
 Utilize a estrutura de controle for ...in .
 Cálculo do fatorial, exemplo: fatorial de 5 = 5!=1x2x3x4x5= 120'''
 
-print('Pedro Henrique da Silva / CC / G76CHI3')
 
 n1 = float(input("digite um numero inteiro: "))
 

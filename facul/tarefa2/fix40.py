@@ -6,7 +6,6 @@ acréscimo será de 5% para os demais valores.'''
 
 # Entrada do salário do usuário 
 
-print('Pedro Henrique da Silva / CC / G76CHI3')
 
 salario = float(input('Digite seu salário por favor: '))
 

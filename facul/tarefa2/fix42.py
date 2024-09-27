@@ -1,7 +1,6 @@
 '''Elaborar um algoritmo (programa) que leia as notas de 5 alunos e retorne a maior nota da turma.
 Utilize a estrutura de controle while.'''
 
-print('Pedro Henrique da Silva / CC / G76CHI3')
 
 # Inicializa variáveis
 aluno = 1

@@ -4,7 +4,7 @@ fórmula da Media e escrever o conceito do aluno de acordo com a tabela de conce
 Média é dada pela fórmula:
 MG = (NP1*4 + NP2*6) / 10'''
 
-print('Pedro Henrique da Silva / CC / G76CHI3')
+
 
 nome = str(input('Digite seu nome por favor: '))
 

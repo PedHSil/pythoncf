@@ -6,7 +6,7 @@ peso/altura².
 Incluir uma mensagem na qual deverá aparecer o seu nome, RA e turma antes do resultado final, depois
 faça um (print screen) e comentar o(s) resultado(s) do programa após a execução do mesmo.'''
 
-print('Pedro Henrique da Silva / CC / G76CHI3')
+
 
 peso = float(input('Digite seu peso: '))
 
