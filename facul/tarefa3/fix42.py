@@ -7,28 +7,38 @@ exame.'''
 print(f'Pedro Henrique da Silva – G76CHI3')
 
 def calcular_media():
-    name = input('Digite seu nome por favor: ')
-    ra = int(input('Digite seu RA por favor: '))
+    def entrada_dados():
+        nome = input('Digite seu nome por favor: ')
+        ra = int(input('Digite seu RA por favor: '))
+        return nome, ra
+
+    def calcular(nota1, nota2):
+        return (nota1 + nota2) / 2
+
+    def verificar_aprovacao(media, nome):
+        if media >= 7:
+            print(f'{nome}, sua média foi de {media}, parabéns, você foi aprovado!')
+        else:
+            print(f'{nome}, sua média foi de {media}, você ainda tem mais uma chance, estude mais para o exame')
+
+    def salvar_media(media):
+        with open('media.txt', 'w') as file:
+            file.write(str(media))
+
+    # Fluxo principal
+    nome, ra = entrada_dados()
 
     while True:
         nota1 = float(input('Digite sua nota 1 por favor: '))
         nota2 = float(input('Digite sua nota 2 por favor: '))
 
-        # Verifica se as notas estão dentro do limite permitido
-        if nota1 <= 10 and nota2 <= 10:
-            media = (nota1 + nota2) / 2  # Calcula a média
-
-            if media >= 7:
-                print(f'{name}, sua média foi de {media}, parabéns, você foi aprovado!')
-            else:
-                print(f'{name}, sua média foi de {media}, você ainda tem mais uma chance, estude mais para o exame')
-
-            # Salva a média em um arquivo
-            with open('media.txt', 'w') as file:
-                file.write(str(media))
-            break  # Sai do loop após calcular e exibir a média
+        if 0 <= nota1 <= 10 and 0 <= nota2 <= 10:
+            media = calcular(nota1, nota2)
+            verificar_aprovacao(media, nome)
+            salvar_media(media)
+            break
         else:
-            print(f'As notas, {nota1} e {nota2} inseridas, não são compatíveis com os valores que utilizamos para média geral!')
+            print(f'As notas, {nota1} e {nota2}, inseridas não são compatíveis com os valores que utilizamos para média geral!')
 
 # Chama a função principal
 calcular_media()

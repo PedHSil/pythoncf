@@ -6,23 +6,22 @@ para os demais valores.
 
 print(f'Pedro Henrique da Silva – G76CHI3')
 
-def calcula_acrescimo(salario):
+def calcula_acrescimo():
+    def calcular_novo_salario(salario, percentual):
+        return salario + (salario * percentual)
+
+    def mostrar_resultado(salario, percentual):
+        novo_salario = calcular_novo_salario(salario, percentual)
+        print(f'Seu novo salário com acréscimo de {percentual * 100}% é: {novo_salario:.2f}')
+
+    salario = float(input('Digite seu salário por favor: '))
+
     if salario <= 1500:
-        acrescimo = salario * 0.20
-        novo_salario = salario + acrescimo
-        print(f'Seu novo salário com acréscimo de 20% é: {novo_salario:.2f}')
-        
-    elif salario > 1500 or salario < 2500:
-        acrescimo = salario * 0.10
-        novo_salario = salario + acrescimo
-        print(f'Seu novo salário com acréscimo de 10% é: {novo_salario:.2f}')
-        
-    elif salario > 2500:
-        acrescimo = salario * 0.05
-        novo_salario = salario + acrescimo
-        print(f'Seu novo salário com acréscimo de 5% é: {novo_salario:.2f}')
-        
+        mostrar_resultado(salario, 0.20)
+    elif 1500 < salario < 2500:
+        mostrar_resultado(salario, 0.10)
+    else:
+        mostrar_resultado(salario, 0.05)
 
-
-salario = float(input('Digite seu salário por favor: '))
-calcula_acrescimo(salario)
+# Chama a função principal
+calcula_acrescimo()
