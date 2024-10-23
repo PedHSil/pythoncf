@@ -1,0 +1,4 @@
+# Ignorar arquivos .env
+.env
+# Ignorar todos os arquivos .env, independentemente do sufixo
+.env*
