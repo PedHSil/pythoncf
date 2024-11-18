@@ -38,7 +38,13 @@ with connection:
             f'INSERT INTO {TABLE_NAME}'
             '(nome, idade) VALUES (%s, %s)'
         )
-        data = ('Pedro', 19)
-        result = cursor.execute(sql, data)
+        
+        data = {
+           "nome": "luiz",
+           "idade": 27,
+                
+        }
+        
+        result = cursor.execute(sql, data) # type: ignore
         print(result)
     connection.commit()
