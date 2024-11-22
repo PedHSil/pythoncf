@@ -11,8 +11,8 @@ import schedule
 import time
 
 # Configuração da autenticação do Spotify
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='5081c3fb65fe49f48a7801f422af1647',
-                                               client_secret='12da4a76655a4d9e9778ed7c8382015e',
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='CHANGE_THIS',
+                                               client_secret='CHANGE_THIS',
                                                redirect_uri='http://localhost:8888/callback',
                                                scope='playlist-modify-public playlist-read-private user-library-read user-read-recently-played'))
 
