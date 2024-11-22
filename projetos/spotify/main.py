@@ -31,8 +31,8 @@ else:
 
 # Configuração da autenticação com o escopo correto
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id='5081c3fb65fe49f48a7801f422af1647',
-    client_secret='12da4a76655a4d9e9778ed7c8382015e',
+    client_id='CHANGE_THIS',
+    client_secret='CHANGE_THIS',
     redirect_uri='http://localhost:8888/callback',
     scope='user-read-recently-played'  # Adicione este escopo
 ))
