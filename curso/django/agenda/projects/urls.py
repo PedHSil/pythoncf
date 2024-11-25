@@ -1,5 +1,5 @@
 """
-URL configuration for first_project project.
+URL configuration for agenda project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -14,15 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.http import HttpResponse
+from django.contrib import admin
 from django.urls import path
-
-def my_view(request):
-    print('posso fazer outras coisas')
-    return HttpResponse('Hello, World!')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', my_view)
 ]
-  
