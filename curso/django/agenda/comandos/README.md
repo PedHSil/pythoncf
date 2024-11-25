@@ -10,3 +10,9 @@ git config --global init.defaultBranch main
 git init 
 git add . 
 git commit -m "mensagem"
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+python3 manage.py changepassword USERNAME
