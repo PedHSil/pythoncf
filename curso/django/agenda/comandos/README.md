@@ -3,6 +3,8 @@ python3 -m venv venv
 source ambvirtual/bin/activate
 pip install django
 django-admin startproject project 'nome-project'
+python manage.py runserver
+
 
 git config --global user.name 'Seu nome'
 git config --global user.email 'Seu email'

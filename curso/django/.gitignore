@@ -6,7 +6,8 @@ __pycache__
 db.sqlite3
 static/
 media/
-agenda/local_settings.py
+project/local_settings.py
+
 # Backup files #
 *.bak
 
