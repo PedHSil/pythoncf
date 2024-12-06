@@ -11,3 +11,50 @@ sudo systemctl restart ssh
 
 nano ~/.ssh/authorized_key
 
+
+## Criando sua chave SSH
+
+```
+ssh-keygen -C 'COMENTÁRIO'
+```
+
+## No servidor
+
+### Conectando
+
+```
+ssh usuário@IP_SERVIDOR
+```
+
+### Comandos iniciais
+
+```
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove -y
+sudo apt install build-essential -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.11 python3.11-venv
+sudo apt install python3.11 python3.11-venv -y
+sudo apt install nginx -y
+sudo apt install certbot python3-certbot-nginx -y
+sudo apt install postgresql postgresql-contrib -y
+sudo apt install libpq-dev -y
+sudo apt install git -y
+```
+
+### Configurando o git
+
+```
+git config --global user.name 'Seu nome'
+git config --global user.email 'seu_email@gmail.com'
+git config --global init.defaultBranch main
+```
+
+Criando as pastas do projeto e repositório
+
+```
+mkdir ~/agendarepo ~/agendaapp
+```
+
+Configurando os repositórios
