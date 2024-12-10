@@ -9,4 +9,4 @@ source nome_do_venv/bin/activate
 
 django-admin startproject project .
 
-python3 manage.py runserver
+python3 manage.py runse   rver
