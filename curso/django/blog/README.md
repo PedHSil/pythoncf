@@ -16,8 +16,11 @@ sudo snap install docker
 sudo apt  install docker-compose
 
 # criação de usuario
+python3 manage.py makemigrations site_setup
+
 python3 manage.py migrate
 python3 manage.py createsuperuser
 
-python mana.py startapp blog
+python manage.py startapp blog
 
+pip install pillow
