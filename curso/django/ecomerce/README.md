@@ -4,6 +4,7 @@
 
 python3 -m venv venv
 source venv/bin/activate
+python manage.py runserver
 
 # django
 
@@ -14,3 +15,5 @@ pip install pillow
 # inicio do projeto
 
 django-admin startproject loja .
+python manage.py migrate
+python manage.py createsuperuser
